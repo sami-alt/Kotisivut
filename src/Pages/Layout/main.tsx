@@ -1,12 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
-import './nav.scss'
+import './layout.scss'
 
 
-function Layout(){
+function Layout() {
 
-    return(
+    return (
         <>
-            <nav className="nav">
+            <header className="header">
+                <nav className="nav">
                     <div>
                         <Link to='/'>Home</Link>
                     </div>
@@ -17,14 +18,30 @@ function Layout(){
                         <Link to='/Experience'>Experience</Link>
                     </div>
                     <div>
+                        <Link to='/Projects'>Projects</Link>
+                    </div>
+
+                    <div>
                         <Link to='/Cv'>CV</Link>
                     </div>
-                
-            </nav>
-            <Outlet />
-        </>
+                </nav>
+                </header>
+                <main className="main">
+                    <Outlet/>
+                </main>
+                <footer className="footer">
+                    <p>Yhteystiedot</p>
+                    <div>
+                        <p>0505600463</p>
+                        <p>sami.raiha@gmail.com</p>
+                        <p>Linked in</p>
+                    </div>
+                </footer>
 
-    )
+                </>
+           
+
+            )
 }
 
-export default Layout
+            export default Layout

@@ -4,7 +4,7 @@ function Education() {
 
     return (
         <>
-            <div class="container">
+            <div >
                 <h1>Koulutus</h1>
                 <p>Sami Räihän koulutus </p>
             </div>
