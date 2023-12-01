@@ -1,11 +1,15 @@
+import '../../content.scss'
 
+function Experience() {
 
-function Experience(){
-
-    return(
+    return (
         <>
-        <h1>Työkokemus</h1>
-        <p> Samin työkokemus</p>
+            <div className="content">
+                <div className='expr'>
+                    <h1>Työkokemus</h1>
+                    <p> Samin työkokemus</p>
+                </div>
+            </div>
         </>
     )
 

@@ -1,12 +1,15 @@
+import '../../content.scss'
 
 
 function Education() {
 
     return (
         <>
-            <div >
-                <h1>Koulutus</h1>
-                <p>Sami Räihän koulutus </p>
+            <div className="content">
+                <div className='edu'>
+                    <h1>Koulutus</h1>
+                    <p>Sami Räihän koulutus </p>
+                </div>
             </div>
         </>
 

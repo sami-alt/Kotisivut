@@ -22,6 +22,9 @@ function Layout() {
                     </div>
 
                     <div>
+                        <Link to='/Contact'>Contact</Link>
+                    </div>
+                    <div>
                         <Link to='/Cv'>CV</Link>
                     </div>
                 </nav>
@@ -30,12 +33,7 @@ function Layout() {
                     <Outlet/>
                 </main>
                 <footer className="footer">
-                    <p>Yhteystiedot</p>
-                    <div>
-                        <p>0505600463</p>
-                        <p>sami.raiha@gmail.com</p>
-                        <p>Linked in</p>
-                    </div>
+                   <p></p>
                 </footer>
 
                 </>
