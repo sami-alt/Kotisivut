@@ -16,6 +16,6 @@ function Cv() {
     )
 
 }
-//<iframe src={`${path}#toolbar=0&zoom=83&scrollbar=0`} width="33%" height="950" />
+
 
 export default Cv

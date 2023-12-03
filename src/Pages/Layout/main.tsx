@@ -28,18 +28,15 @@ function Layout() {
                         <Link to='/Cv'>CV</Link>
                     </div>
                 </nav>
-                </header>
-                <main className="main">
-                    <Outlet/>
-                </main>
-                <footer className="footer">
-                   <p></p>
-                </footer>
-
-                </>
-           
-
-            )
+            </header>
+            <main className="main">
+                <Outlet />
+            </main>
+            <footer className="footer">
+                <p>www.samiraiha.fi</p>
+            </footer>
+        </>
+    )
 }
 
-            export default Layout
+export default Layout

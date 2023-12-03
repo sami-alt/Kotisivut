@@ -6,9 +6,8 @@ function Frontpage() {
         <>
             <div className="content">
                 <div className='home'>
-
-                    <h1>Minusta</h1>
-                    <img src='src/assets/mypicture.png' alt="picture of me" height='800' />
+                    <h1>About me</h1>
+                    <img src='src/assets/mypicture.png' alt="picture of me" height='500' />
                     <p>
                         Minä olen 29 vuotias <br />
                         Koodarin alku joka, <br />

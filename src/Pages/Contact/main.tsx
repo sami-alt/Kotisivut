@@ -7,10 +7,13 @@ function Contact() {
             <div className="content">
                 <div className='contact'>
 
-                    <h1>yhteystiedot</h1>
-                    <p>Sähköposti</p>
-                    <p>Puhelinumero</p>
+                    
+                    <h1>Contact information</h1>
+                    <div className='contact'>
+                    <p>E-mail</p>
+                    <p>Phonenumber</p>
                     <p>Linkedin</p>
+                    </div>
                 </div>
             </div>
         </>
