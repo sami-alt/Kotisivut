@@ -5,10 +5,10 @@ function Experience() {
     return (
         <>
             <div className="content">
-                <div className='expr'>
+                <div >
                 <h1>Previous employment</h1>
 
-                    <p> Samin työkokemus</p>
+                    <p>6/2018 onwards - Deliverer, Lounais-Suomen Tietojakelu</p>
                 </div>
 
             </div>

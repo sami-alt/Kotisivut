@@ -6,7 +6,10 @@
     text-align: center;
 }
  
-
+.content .links{
+    display: flex;
+    flex-direction: column;
+}
 
 .content .contact {
     text-align: center;
