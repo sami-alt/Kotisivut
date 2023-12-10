@@ -12,17 +12,20 @@ function Layout() {
                         <Link to='/'>Home</Link>
                     </div>
                     <div>
-                        <Link to='/Education'>Education</Link>
+                        <Link to='/Skills'>Skills</Link>
                     </div>
                     <div>
-                        <Link to='/Experience'>Experience</Link>
+                        <Link to='/Education'>Education</Link>
                     </div>
                     <div>
                         <Link to='/Projects'>Projects</Link>
                     </div>
-
                     <div>
                         <Link to='/Contact'>Contact</Link>
+                    </div>
+
+                    <div>
+                        <Link to='/Experience'>Experience</Link>
                     </div>
                     <div>
                         <Link to='/Cv'>CV</Link>

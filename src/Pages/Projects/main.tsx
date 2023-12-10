@@ -9,6 +9,8 @@ function Projects() {
                 <div >
                     <h1>Projects</h1>
                     <p>Link to working web applikation</p>
+                    <a href='ostoslista.samiraiha.fi'>Shoppinglist</a>
+
                     <p>Github repositories</p>
                     <div className='links'>
 

@@ -6,8 +6,7 @@ function Experience() {
         <>
             <div className="content">
                 <div >
-                <h1>Previous employment</h1>
-
+                    <h1>Previous employment</h1>
                     <p>6/2018 onwards - Deliverer, Lounais-Suomen Tietojakelu</p>
                 </div>
 

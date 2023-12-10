@@ -7,6 +7,7 @@ import Koulutus from "./Pages/Education/main"
 import Layout from "./Pages/Layout/main"
 import Projects from "./Pages/Projects/main"
 import Contact from "./Pages/Contact/main"
+import Skills from "./Pages/Skills/main"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path='/Projects' element={<Projects/>}/>
             <Route path='/CV' element={<Cv />} />
             <Route path="/Contact" element={<Contact/>}/>
+            <Route path='/Skills' element={<Skills/>}/>
           </Route>
         </Routes>
     </>
