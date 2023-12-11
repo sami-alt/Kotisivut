@@ -13,7 +13,7 @@ function Contact() {
                     <div className='content'>
                     <p>Linkedin</p>
                     <p>: </p>
-                    <a href='www.linkedin.com/in/samiräihä'>www.linkedin.com/in/samiräihä </a>
+                    <a href='https://www.linkedin.com/in/samiräihä'>www.linkedin.com/samiräihä </a>
                     </div>
                     </div>
                 </div>

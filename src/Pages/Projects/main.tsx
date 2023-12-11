@@ -11,7 +11,8 @@ function Projects() {
                     <p>Link to working web applikation</p>
                     <a href='ostoslista.samiraiha.fi'>Shoppinglist</a>
 
-                    <p>Github repositories</p>
+                    <p> </p>
+                    <p>Github repositories</p> 
                     <div className='links'>
 
                     <a href='https://github.com/sami-alt/Ostoslista'>Shopping list app</a>
