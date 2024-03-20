@@ -1,5 +1,3 @@
-
-
 .content {
     display: flex;
     justify-content: center;
@@ -11,8 +9,11 @@
     flex-direction: column;
 }
 
-
-
 .contact > #skills{
     text-align: left;
+}
+
+.home p {
+    max-width: 600px;
+    text-align: justify;
 }
