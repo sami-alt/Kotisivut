@@ -9,7 +9,7 @@ function Projects() {
                 <div >
                     <h1>Projects</h1>
                     <p>Link to working web applikation</p>
-                    <a href='ostoslista.samiraiha.fi'>Shoppinglist</a>
+                    <a href='https://ostoslista.samiraiha.fi'>Shoppinglist</a>
 
                     <p> </p>
                     <p>Github repositories</p> 
@@ -18,7 +18,7 @@ function Projects() {
                     <a href='https://github.com/sami-alt/Ostoslista'>Shopping list app</a>
                     <a href='https://github.com/sami-alt/AWS_team'>AWS training course project</a>
                     <a href='https://github.com/sami-alt/solitadev-pre'>Citybike app project</a>
-                    <a href='https://github.com/sami-alt/FullstackCapstone2022-mirror'>PRojrct for TESY(Turun Eläinsuojeluyhdistys)</a>
+                    <a href='https://github.com/sami-alt/FullstackCapstone2022-mirror'>Project for TESY (Turun Eläinsuojeluyhdistys)</a>
                     </div>
                 </div>
             </div>
