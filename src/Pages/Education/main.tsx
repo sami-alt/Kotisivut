@@ -25,6 +25,7 @@ function Education() {
                         Aws/reStart program - AWS Certified Cloud Practitioner <br />
                         certification <br />
                     </h5>
+                    <a href='https://credly.com/badges/64599b28-3704-4fc6-8ada-03aa31734c40'>Certificate</a>
                 </div>
             </div>
         </>

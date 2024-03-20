@@ -8,7 +8,7 @@ function Projects() {
                 
                 <div >
                     <h1>Projects</h1>
-                    <p>Link to working web applikation</p>
+                    <p>Link to Shopping list application</p>
                     <a href='https://ostoslista.samiraiha.fi'>Shoppinglist</a>
 
                     <p> </p>

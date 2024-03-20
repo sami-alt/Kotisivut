@@ -13,19 +13,20 @@ function Skills() {
                     </div>
                     <div id='skills'>
 
-                        <p>
-                            I can handle not only Windows but also other operating systems, <br />
-                            and learning new programs or solving computer problems has not yet become an obstacle.<br />
-                            My programming experience is focused on JavaScript. Along with that, HTML, CSS and React have become familiar and <br />
-                            I've been able to  experiment with other languages, such as C++ , Python and Java.<br />
-                            I am motivated to deepen my knowledge in these languages, as well as to develop new skills according to the opportunities that come up, <br />
-                            both for work and on my own initiative in my free time.<br />
-                            Recently, I have also acquired a more formal education through the Open University. For example, in the Capstone project,<br />
-                            we created a ready-made tool to fully meet the customer's needs from start to finish.<br />
-                            During the project, I learned to work as part of a big team and to communicate my ideas and opinions. <br />
-                            I also got hands-on experience with React and Java Spring.<br />
+                        <ul>
+                            <li>Operating System Familiarity: Comfortable with both Windows and Linux, showing an ability to adapt to new technical environments.</li>
 
-                        </p>
+                            <li>Programming Skills: Have a foundation in JavaScript, Python, Java and familiar with HTML, CSS, and React for creating simple web applications. Also, have experimented with C++ demonstrating a keen interest in broadening my programming knowledge.</li>
+
+                            <li>Learning and Development: Eager to learn more about current programming languages and to acquire new skills, both through formal job opportunities and self-directed projects in my spare time.</li>
+
+                            <li>Educational Background: Recently completed a course of study at the Open University, which included a Capstone project where we developed a solution from the ground up, meeting the client's specifications.</li>
+
+                            <li>Teamwork: During the Capstone project, learned the importance of teamwork and communication in a large group setting, contributing to the project's success through shared ideas and feedback.</li>
+
+                            <li>Practical Experience: Gained introductory experience with React and Java Spring in the Capstone project, applying what I learned in a practical setting.</li>
+
+                        </ul>
                     </div>
                 </div>
             </div>

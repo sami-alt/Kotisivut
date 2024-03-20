@@ -9,11 +9,16 @@
     flex-direction: column;
 }
 
-.contact > #skills{
+.contact > #skills {
     text-align: left;
 }
 
 .home p {
     max-width: 600px;
     text-align: justify;
+}
+
+#skills {
+    max-width: 600px;
+    text-align: left;
 }
