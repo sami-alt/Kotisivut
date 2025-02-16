@@ -1,20 +1,17 @@
 
-const path = 'src/assets/Sami Räihä CV English.pdf'
-import '../../content.scss'
 
 function Cv() {
-
     return (
-        <>
-            <div className="content">
-                <embed src={`${path}#toolbar=0&scrollbar=0&zoom=80`} height='930' width='45%' />
+        <div className="cv">
+            <div>
+                <iframe src="src/assets/CV.pdf#embedded=true&toolbar=0&scrollbar=0&zoom=70"></iframe>
             </div>
-            <div className='content'>
-                <a href={path} download='SamiRaihaCV'>Download CV</a>
-            </div>
-        </>
-    )
+         <div id="cvLink">
+            <a href="scr/assets.CV.pdf&embedded=true" download='SamiRaihaCv' id="cvLink">Download CV</a> 
+        </div> 
+        </div>
 
+    )
 }
 
 

@@ -1,27 +1,43 @@
-import '../../content.scss'
+import {Link} from 'react-router-dom'
 
-function Frontpage() {
-
+function Home() {
     return (
         <>
-            <div className="content">
-                <div className='home'>
-                    <h1>About me</h1>
-                    <img src='src/assets/mypicture.png' alt="picture of me" height='500' />
-                    <p>
-                        Hello, my name is Sami Räihä and this are my website.<br/>
-                        I am a 29 year old guy from Turku. I have studied biochemistry at the University of Turku.<br/>
-                        As an employee, I have a cooperative and self-initiative attitude, which is good for accepting even difficult challenges.<br/>
-                        During the past few years, I have been interested in programming and developed my skills through university courses and independent study.<br/>
-                        In programming, I am attracted by the challenges and the skills that develop when solving them.<br/>
-                        In here you can find more about me like my work history, education and links to my various projects.<br/>
-                        If you are interested in hiring me my contact information can be foun here along with my CV, whitch can be downloaded easily.<br/>
+            <div className="home">
+                <div id='intro'>
+                    <h1>Hello, i'm sami</h1>
+                    <p>These are my websites to showcase my skills,<br/> portfolio and experience.</p>
+                </div>
+                <picture id='picture'>
+                    <img src='src/assets/mypictureedit.png' alt="picture of me" height='600' />
+                </picture>
+                <div className='homeText'>
+                    <div>
 
-                    </p>
+                        <h1>About me</h1>
+                        <p>
+                            From here you can read short paragraph<br />
+                            to get fuller picture about me.
+                        </p>
+                        <Link to='/About' id='link'>Click here to read more</Link>
+                        <div className="divider"></div>
+                    </div>
+                    <div>
+                        <h1>My portfolio</h1>
+                        <p>
+                            Here you can find about project that i have completed <br/>
+                            or are currently under progress to find about my skills.
+                        </p>
+
+                        <Link to='/Portfolio' id='link'>Click here to read more</Link>
+                        <div className="divider"></div>
+                    </div>
+
                 </div>
             </div>
         </>
     )
 }
 
-export default Frontpage
+
+export default Home
