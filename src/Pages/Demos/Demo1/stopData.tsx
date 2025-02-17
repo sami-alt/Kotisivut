@@ -25,7 +25,7 @@ const getData = (station:string):Promise<Record<number, Stopdata>> => {
 const Stopdata = () => {
     const [timetable, setTimetable] = useState<Record<number, Stopdata>>([])
     const [station, setStation] = useState<string>()
-
+    console.log(station)
     const handleInput: React.ChangeEventHandler<HTMLSelectElement> = (event)=> {
         event.preventDefault()
         setStation(event.target.value)
@@ -33,6 +33,7 @@ const Stopdata = () => {
 
     async function displayTimetable(station:string){
         const data = await getData(station)
+        console.log("stop",data)
         setTimetable(data)
     }
 

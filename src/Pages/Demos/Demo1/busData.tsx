@@ -66,12 +66,14 @@ function BusData() {
     const [showLocations, setShowLocations] = useState(false)
     const mapInstanceRef = useRef<{ el: HTMLDivElement, map: L.Map }>()
 
+
     useEffect(() => {
         let unmounted = false
         let timeoutId: number
         const updateData = async () => {
             const data = await getData()
-            console.log(data, 'type')
+            console.log("data",data);
+            // console.log(data, 'type')
             if (!unmounted) {
                 setBusData(data)
                 timeoutId = setTimeout(updateData, 3000)
@@ -86,13 +88,13 @@ function BusData() {
     }, [])
 
     const byLine = (Object.values(busData).filter(bus => bus.lineref === line))
-
     const lineData = showLocations
-        ? byLine
-            .map(e => ({ 'linja': e.lineref, 'longitude': e.longitude, 'latitude': e.latitude}))
-            .filter(e => e.longitude && e.latitude)
-            .map((bus): [number, number] => [Number(bus.latitude), Number(bus.longitude)])
-        : []
+    ? byLine
+    .map(e => ({ 'linja': e.lineref, 'longitude': e.longitude, 'latitude': e.latitude}))
+    .filter(e => e.longitude && e.latitude)
+    .map((bus): [number, number] => [Number(bus.latitude), Number(bus.longitude)])
+    : []
+    // console.log("bbb",busData, line)
 
     useEffect(() => {
         const currentMapInstanceRef = mapInstanceRef.current
