@@ -100,7 +100,7 @@ function Demo2() {
     const [weatherDataBycity, setWeatherDataByCity] = useState<null | weatherData>(null)
 
     const getCityData = (): Promise<cityData[]> => {
-        return fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`, { method: "GET" })
+        return fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`, { method: "GET" })
             .then(respose => respose.json())
             .then(response => response)
     }
