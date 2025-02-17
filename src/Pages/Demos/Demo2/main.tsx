@@ -106,7 +106,7 @@ function Demo2() {
     }
 
     const getCityWeatherData = (lat: number, lon: number): Promise<weatherData> => {
-        return fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`, { method: "GET" })
+        return fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`, { method: "GET" })
             .then(response => response.json())
             .then(response => response)
     }
