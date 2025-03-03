@@ -15,7 +15,7 @@ function Demos() {
                     next five days anywhere around the world.<br/>
                     Both of these project use open APIs and data fetching is done with JS<br/>
                     by the browser so there is no backend for these widgets.<br/>
-                    More projects are comming soon.
+                    More projects are coming soon.
                 </p>
             </div>
             <Demo1 />

@@ -7,9 +7,10 @@ function Portfolio() {
                 </h1>
                 <div className="divider"></div>
                 <p>
-                    Projects that are currently on this page are in area of web development<br/>
-                    Couple of projects are fullstack and some just frontend projects.<br/>
-                    I have some C projects that i am working on that will be soon added here.
+                    Here, you'll find a collection of my projects, including full-stack applications,<br/>
+                    AWS implementations like durable databases, and small C projects.<br/>
+                    These showcase my skills in web development, cloud services, and low-level programming.<br/>
+                    Feel free to explore! 
                 </p>
             </div>
             <div className="projects">
@@ -25,9 +26,9 @@ function Portfolio() {
                     </div>
                     <div className="projectText">
                         <p>
-                            This is small shoppinglist application with <br/>
-                            backend implemented with JavaScript and Sqlite<br />
-                            It has User authentication and sharing features for the list between users.
+                        A full-stack shopping list application with a React front-end and a Node.js back-end using SQLite.<br/>
+                        It features user authentication with cookies and allows users to create, manage, and share lists with others<br/>
+                        for a seamless shopping experience.<br/>
                         </p>
                     </div>
                     <a href="https://ostoslista.samiraiha.fi/">Link to application page</a>
@@ -44,9 +45,8 @@ function Portfolio() {
                     </div>
                     <div className="projectText">
                         <p>
-                            Proof of concept project for TESY employers and volunteers<br/>
-                            to manage information about rescued animals and their conditions.<div/>
-                            Users have specific roles and permissions on the aplication.
+                        A proof-of-concept project for TESY employers and volunteers to manage information about rescued animals and their conditions.<br/>
+                        The application includes role-based access control, ensuring users have specific permissions based on their roles.<br/>
                         </p>
                     </div>
                     <a href="https://github.com/sami-alt/FullstackCapstone2022-mirror">Click here for Github repository</a>
@@ -65,9 +65,8 @@ function Portfolio() {
                             <img src="src/assets/citybike_2.png" width='400'></img>
                         </div>
                         <p>
-                            This was technical skill project for job interview<br/>
-                            that works in docker container that has both backend and frontend.<br/>
-                            It uses open source data about city bikes.
+                        A technical skill project for a job interview, running in a Docker container with both backend and frontend.<br/>
+                        It utilizes open-source data on city bikes, providing insights and functionality for analyzing bike usage.
                              
                         </p>
                     </div>
@@ -83,10 +82,9 @@ function Portfolio() {
                     <h5>Aws certification project</h5>
                     <img src="src/assets/AWS-Logo-PNG-Pic.png" height='150' width='300'></img>
                     <p className="projectText">
-                        Final project for course for Aws practitioner certification.<br/>
-                        It is very simple Mysql server that has backup system that <br/>
-                        takes snapshots of current database and uses latest to get database <br/>
-                        back up on alternative machine or container. This project also works in docker container.
+                    A simple MySQL server with an automated backup system that takes database snapshots and restores<br/> 
+                    the latest backup on an alternative machine or container.<br/>
+                    Designed as the final project for my AWS Practitioner certification, it runs seamlessly in a Docker container.
                     </p>
                     <a href='https://github.com/sami-alt/AWS_team'>Click here for Github repository</a>
                 </div>

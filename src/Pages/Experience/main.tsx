@@ -6,7 +6,9 @@ function Experience() {
                     Experience
                 </h1>
                 <p>
-                    My relevant employment history and current position.
+                    I have previous experience working in a company specializing in real estate analytics,<br/>
+                     where I managed data collection and database updates from various real estate listing sites.<br/>
+                      Currently, I am focused on developing my programming skills through my studies at Hive Helsinki and personal projects. 
                 </p>
                 <div className="divider"></div>
             </div>
@@ -18,7 +20,8 @@ function Experience() {
                         and other interested parties. I set up a server that used sites like etuovi and vuokraovi<br/>
                         to scrape data about ammount of available apparments and their general prices.
                     </p>
-                    <p>6.2023-1.2024</p>
+                    <p>6.2024-</p>
+                    <p>part-time</p>
                 </div>
                 <div className="job">
                     <h3>Lounaissuomen Tietojakelu</h3>

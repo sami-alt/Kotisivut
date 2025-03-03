@@ -4,15 +4,17 @@ function Education() {
             <div className="eduTitle">
                 <h5>Education and Certificates</h5>
                 <div className="divider"></div>
-                <p>Here you can see formal education and certificates that i have gained.</p>
+                <p>
+                    Here, you’ll find details about my formal education, self-learning journey, and certifications.<br/>
+                    From coding bootcamps to cloud certifications, these reflect my commitment to continuous learning and professional growth.
+                </p>
             </div>
             <div className='eduTitle'>
                 <h3>Hive Helsinki - Coding school - Currently</h3>
                 <div className='divider'></div>
                 <p>
-                    I'm Currently studying in Hive Helsinki coding school where studies are mainly C/C++
-                    and enviroment is linux Ubunut. There has also been porject with VM and how to use those 
-                    enviroments to setup server for example. All my completed projects can be found on my personal github page.
+                    I am currently studying at Hive Helsinki coding school, where the focus is on C/C++ programming in a Linux (Ubuntu) environment.<br/>
+                    My studies have also included projects involving virtual machines and setting up servers. You can find all my completed projects on my personal GitHub page.
                 </p>
             </div>
             <div>

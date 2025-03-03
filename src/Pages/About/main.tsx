@@ -5,17 +5,11 @@ function About() {
             <div className="about">
                 <div className="aboutme">
                     <h2>Hello, let me introduce myself.</h2>
-                    <p>Welcome to my website. I'm Sami Räihä, a 30-year-old software developer <br/> 
-                        from Turku with a background in biochemistry
-                        from the University of Turku.<br />
-                        My interest in programming has grown over the years,
-                        fueled by both university courses and self-study.<br/>
-                        I enjoy the challenges programming presents
-                        and the continuous skill development it offers.<br />
-                        I'm known for being cooperative, taking initiative, and embracing challenges.<br />
-                        Here, you'll find details about my work history, education, and various projects.<br />
-                        I'm currently studying in Hive Helsinki coding shcool.<br/>
-                        If you're considering me for a role, my contact details and CV are available for download.</p>
+                    <p>I am an aspiring programmer with a strong passion for learning and problem-solving. After years of self-study, I have acquired formal education
+                    to further enhance my skills. I am proficient in JavaScript and C and have experience with Java and Python. Additionally, I am comfortable working
+                    with both Windows and multiple Linux systems. Currently, I am studying at Hive Helsinki coding school, continuously pushing myself to grow as a developer.
+                    I thrive on challenges and enjoy tackling complex problems in programming.
+                    On this website, you can find more about my education, experience, portfolio, and a few small demos showcasing my work.</p>
                     <div className="divider"></div>
                 </div>
                 <picture id='picture'>

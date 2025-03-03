@@ -6,7 +6,10 @@ function Home() {
             <div className="home">
                 <div id='intro'>
                     <h1>Hello, i'm sami</h1>
-                    <p>These are my websites to showcase my skills,<br/> portfolio and experience.</p>
+                    <p>Hi, and thanks for visiting my website! 
+                    Here, you'll find more about me, my skills, education, and experience. 
+                    Feel free to explore my portfolio and check out some of my projects and demos. 
+                    I'm always eager to learn, improve, and take on new challenges in programming. Enjoy your stay!</p> 
                 </div>
                 <picture id='picture'>
                     <img src='src/assets/mypictureedit.png' alt="picture of me" height='600' />
@@ -16,8 +19,7 @@ function Home() {
 
                         <h1>About me</h1>
                         <p>
-                            From here you can read short paragraph<br />
-                            to get fuller picture about me.
+                            Learn more about my background, education, and passion for programming on the About Me page.
                         </p>
                         <Link to='/About' id='link'>Click here to read more</Link>
                         <div className="divider"></div>
@@ -25,8 +27,7 @@ function Home() {
                     <div>
                         <h1>My portfolio</h1>
                         <p>
-                            Here you can find about project that i have completed <br/>
-                            or are currently under progress to find about my skills.
+                            Check out my portfolio to see my projects and demos showcasing my skills and experience.
                         </p>
 
                         <Link to='/Portfolio' id='link'>Click here to read more</Link>

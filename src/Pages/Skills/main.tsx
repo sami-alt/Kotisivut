@@ -4,7 +4,10 @@ function Skills() {
         <div className="skills">
             <h1>Technical skills</h1>
             <div className="divider"></div>
-            <p>These are the skills that i have aquired during my various projects and eduacation.</p>
+            <p>
+            I have a strong foundation in programming and system management, with experience in both front-end and back-end development.<br/>
+             My key skills include:
+            </p>
         </div>
             <div className="skillsList">
 
@@ -13,19 +16,30 @@ function Skills() {
                 </div>
                 <div className="divider"></div>
                 <div>
-                    Programming Skills: Have a foundation in JavaScript, Python, C and familiar with HTML, CSS, and React for creating simple web applications.
-                    Also, have experimented with C++ and Java demonstrating a keen interest in broadening my programming knowledge.
+                    Programming Languages: JavaScript, C, C++, Java, Python
                 </div>
                 <div className="divider"></div>
-                
                 <div>
-                    Programming Skills: Have a foundation in JavaScript, Python, C, Java and familiar with HTML, CSS, and React for creating simple web applications.
+                    Web Development: React, Node.js, SQL (PostgreSQL, SQLite, MySQL)
+                </div>
+                <div className="divider"></div>
+                <div>
+                    Cloud & DevOps: AWS (Certified Cloud Practitioner), Cloudflare, Docker, Virtual Machines
+                </div>
+                <div className="divider"></div>
+                <div>
+                    Operating Systems: Linux (Ubuntu, Depian), Windows
+                </div>
+                <div className="divider"></div>
+                <div>
+                Tools & Version Control: Git, Command Line, Server Management
                 </div>
             </div>
-
+            <div className="skills">
+                {/* I am always eager to expand my skill set and take on new challenges! */}
+            </div>
         </>
     )
 }
-
 
 export default Skills
