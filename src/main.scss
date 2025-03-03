@@ -340,6 +340,7 @@ p {
 .contacts {
     display: flex;
     flex-direction: row;
+
     gap: 10px;
     margin-left: 10%;
     margin-top: 10%;
@@ -354,6 +355,7 @@ p {
     padding: 10px 10px 10px 10px;
     background-color: rgba(46, 46, 48, 0.677);
     height: 200px;
+    width: 28%;
 }
 
 #github {
