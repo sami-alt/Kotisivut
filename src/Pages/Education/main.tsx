@@ -2,7 +2,7 @@ function Education() {
     return (
         <>
             <div className="eduTitle">
-                <h5>Education and Certificates</h5>
+                <h3>Education and Certificates</h3>
                 <div className="divider"></div>
                 <p>
                     Here, you’ll find details about my formal education, self-learning journey, and certifications.<br/>
@@ -22,13 +22,18 @@ function Education() {
                     <h3 >University</h3>
                     <div className="divider"></div>
                     <p>
-                        I Studied three years of biochemistry in University of Turku, During that time i developed great<br />
-                        ammount of domain knowledge in that area. I also learned to read scientifc articles and aquire knowledge independently.
+                        I completed three years of biochemistry studies at the University of Turku.
+                        During this time, I gained a strong foundation in molecular biology and developed valuable skills in reading scientific literature, conducting research, and acquiring knowledge independently.
                     </p>
-                    <h5>
-                        Aws/reStart program - AWS Certified Cloud Practitioner <br />
-                        certification <br />
-                    </h5>
+                </div>
+                <div className="eduTitle">
+
+                    <h3>
+                        AWS re/Start Program — AWS Certified Cloud Practitioner<br/>
+                        <div className="divider"></div>     
+                    </h3>
+                        I completed the AWS re/Start program, which provided hands-on experience with cloud computing fundamentals.<br/>
+                        As part of the program, I earned the AWS Certified Cloud Practitioner certification, demonstrating my understanding of core AWS services and cloud concepts.
                     <a href='https://credly.com/badges/64599b28-3704-4fc6-8ada-03aa31734c40'>Certificate</a>
                 </div>
             </div>
