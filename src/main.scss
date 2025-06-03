@@ -75,6 +75,9 @@ body {
     margin: 6px 0;
 }
 
+//dropdown
+
+
 //Main
 
 .main {
@@ -468,14 +471,45 @@ iframe {
 
 //mobile styles
 
-// @media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
 
-//     body{
-//         max-width: 100hv;
-//     }
+    body{
+        max-width: 100vh;
+        min-width:300px
+    }
 
-//     .home {
-//         display: flex;
-//         flex-direction: column;
-//     }
-// }
+    .main{
+        max-width: 330px;
+        padding-top: 0px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .navLinks{
+        display: none;
+    }
+
+    #menuButton{
+        padding-right: 0px;
+    }   
+
+    //home
+
+    .home{
+        margin-top: 20px;
+    }
+
+    #intro{
+        margin-top: 0px;
+        padding-top: 0;
+    }
+
+    .homeText{
+        padding-top: 10px;
+        justify-content: center;
+    }
+
+}
