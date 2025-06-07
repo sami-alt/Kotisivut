@@ -1,6 +1,8 @@
 function Experience() {
     return (
-        <>
+        <>  
+        <div className="experience">
+
             <div id="jobsTitle">
                 <h1>
                     Experience
@@ -31,6 +33,7 @@ function Experience() {
                     <p>6.2018-</p>
                 </div>
             </div>
+        </div>
 
         </>
     )

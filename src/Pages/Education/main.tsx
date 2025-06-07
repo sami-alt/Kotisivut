@@ -1,6 +1,8 @@
 function Education() {
     return (
-        <>
+        <>  
+            <div className="education">
+
             <div className="eduTitle">
                 <h3>Education and Certificates</h3>
                 <div className="divider"></div>
@@ -36,6 +38,7 @@ function Education() {
                         As part of the program, I earned the AWS Certified Cloud Practitioner certification, demonstrating my understanding of core AWS services and cloud concepts.
                     <a href='https://credly.com/badges/64599b28-3704-4fc6-8ada-03aa31734c40'>Certificate</a>
                 </div>
+            </div>
             </div>
         </>
     )

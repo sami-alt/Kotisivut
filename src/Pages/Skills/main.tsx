@@ -1,6 +1,8 @@
 function Skills() {
     return (
         <>
+        <div className="skillPage">
+
         <div className="skills">
             <h1>Technical skills</h1>
             <div className="divider"></div>
@@ -38,6 +40,7 @@ function Skills() {
             <div className="skills">
                 {/* I am always eager to expand my skill set and take on new challenges! */}
             </div>
+        </div>
         </>
     )
 }

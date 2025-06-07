@@ -62,19 +62,89 @@ body {
 }
 
 #menuButton {
-    margin-top: 5px;
+    margin-top: 30px;
     padding: 0px 0px;
-    border-width: 0;
+    border-width: 1000;
     background-color: rgb(20, 18, 18);
 }
 
-#line {
+.line1, .line2, .line3 {
     width: 35px;
     height: 5px;
     background-color: rgb(231, 219, 219);
-    margin: 6px 0;
+    margin: 6px;
+    transition: 0.4s;
 }
 
+.change .line1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .line2 {
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+
+
+.change .header .nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50%;
+}
+
+.change  .navLinks{
+    margin-top: 10px;
+    margin-left: 50%;
+}
+
+.change .home{
+    display: none;
+}
+
+.change .footer{
+    display: none;
+}
+
+.change #logo{
+    display: none;
+}
+
+.change .about{
+    display: none;
+}
+
+.change .contactPage{
+    display: none;
+}
+
+.change .portfolio{
+    display: none;
+}
+
+.change .education{
+    display: none;
+}
+
+.change .skillPage{
+    display:  none;
+}
+
+.change .experience{
+    display: none;
+}
+
+.change .cv{
+    display:  none;
+}
+
+.change .demos{
+    display: none;
+}
 //dropdown
 
 
@@ -221,6 +291,10 @@ body {
 #item2 .projectText {
     padding-top: 100px;
     height: 400px;
+}
+
+#item2 #project2 #tesyImg{
+    width: 100%;
 }
 
 #project3 {
@@ -471,7 +545,7 @@ iframe {
 
 //mobile styles
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
 
     body{
         max-width: 100vh;
@@ -492,9 +566,20 @@ iframe {
         display: none;
     }
 
-    #menuButton{
-        padding-right: 0px;
-    }   
+    #cvLink{
+        display: none;
+    }
+
+
+    .change .navLinks{
+        display: flex;
+        flex-direction: column;
+        margin-left:-80%;
+    }
+
+    // #menuButton{
+    //     padding-right: 0px;
+    // }   
 
     //home
 
@@ -511,5 +596,138 @@ iframe {
         padding-top: 10px;
         justify-content: center;
     }
+
+    //about
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutme{
+        margin-top: 20px;
+    }
+
+    //portfolio
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item1, item2, item3, item4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .techs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #item1 .projectText {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    height: 200px;
+    }
+
+
+    #item1  a {   
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-right: 10px;
+    
+    }
+
+    #item2 .projectText{
+    padding-top: 1%;
+    height: 25%;
+    }
+
+    .item #project2 img{
+        width: 100%;
+    }
+
+
+    #project3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #item3 #item3content img{
+        width: 100%;
+    }
+
+    #item3content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #item3content p{
+        padding-top: 0px; 
+    }
+
+    #item4  img{
+        width: 70%;
+        margin-left: 18%;
+    }
+
+    //education
+
+    .eduTitle {
+        width: 75%;
+        margin-left: -15%;
+    }
+
+
+    //contacts
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        width: 100%;
+        margin-left: -8%;
+    }
+
+    .skillsList{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    //experience
+    .job {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgba(46, 46, 48, 0.677);
+    border-radius: 25px;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+#date{
+    margin-left: -25%;
+}
+
+.weatherBox{
+    margin-left: -8%;
+}
+
+.weatherBox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 22%;
+    justify-content: center;
+}
 
 }

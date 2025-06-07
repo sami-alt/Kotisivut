@@ -1,6 +1,8 @@
 function Contact() {
     return (
         <>
+            <div className="contactPage">
+
             <div id="contactTitle">
                 <h2>Get in contact with me</h2>
                 <div>
@@ -28,6 +30,7 @@ function Contact() {
                         <img src='src/assets/github-mark-white.png' id="github"/>
                     </a>
                 </div>
+            </div>
             </div>
         </>
     )

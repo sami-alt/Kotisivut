@@ -1,6 +1,7 @@
 function Portfolio() {
     return (
-        <>
+        <>  
+        <div className="portfolio">
             <div id='portfolioTitle' >
                 <h1 >
                     Portfolio
@@ -41,7 +42,7 @@ function Portfolio() {
                     </div>
                     <h5>Tesy project</h5>
                     <div id="project2">
-                        <img src="\src\assets\tesy-animal-list.PNG" width='700'></img>
+                        <img id="tesyImg" src="\src\assets\tesy-animal-list.PNG" /*width='700'*/></img>
                     </div>
                     <div className="projectText">
                         <p>
@@ -88,6 +89,7 @@ function Portfolio() {
                     </p>
                     <a href='https://github.com/sami-alt/AWS_team'>Click here for Github repository</a>
                 </div>
+            </div>
             </div>
         </>
     )
